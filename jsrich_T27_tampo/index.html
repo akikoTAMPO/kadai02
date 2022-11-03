@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐨🐼じゃんけんぽん🐼🐨</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet"
+    href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- ---------
+        header
+     ---------- -->
+    <header>
+        <h1 class="header">
+            🐨🐼じゃんけんぽん🐼🐨
+        </h1>
+    </header>
+
+    <!-- ----------------
+        エリアをつくる
+     ----------------- -->
+
+        <!-- ----------------
+        吹き出しエリア
+     ----------------- -->
+        <div class="speech_area">
+            <div class="partner_speech_area">
+                <div class="partner_speech">
+                    <span class="speech__text">
+                        🐨　　最初はグー　じゃんけん
+                    </span>
+                </div>
+            </div>
+            <div class="user_speech_area">
+                <div class="user_speech">
+                    <span class="speech__text">
+                        🐼　　最初はグー　じゃんけん
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- ---------
+        メインエリア
+     ---------- -->
+        <div class="main">
+            <div class="partner_main">
+                <h1 class="partner">
+                    ✊
+                </h1>
+            </div>
+            <div class="user_main">
+                <!-- ユーザーのメインエリア<br>450x300px -->
+                <h1 class="user">
+                    ✊
+                </h1>
+                <!-- 結果表示 -->
+                <div class="result">
+                <h1 class="result__text">
+                    <!-- 結果が出ます -->
+                </h1>
+            </div>
+            </div>
+        </div>
+
+
+        <!-- ----------------
+            ボタンエリア
+        ----------------- -->
+        <div class="btn_area">
+            <div class="partner_btn_area">
+                <!-- 敵のボタンエリア<br>450x150px -->
+            </div>
+
+            <!-- ユーザー選択ボタン -->
+            <div class="user_btn_area">
+                <div class="user_btns">
+                    <div class="btn_gu btn">
+                        <a href="#" class="btn__text">✊</a>
+                    </div>
+                    <div class="btn_choki btn">
+                        <a href="#" class="btn__text">✌</a>
+                    </div>
+                    <div class="btn_pa btn">
+                        <a href="#" class="btn__text">✋</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- 結果表示 -->
+    <!-- <h1 class="result__text">
+        結果
+    </h1> -->
+
+
+    <!-- 必ず！！jqueryが先！！！ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- bodyの閉じタグの直前にjs読み込みする -->
+    <script src="js/janken.js"></script>
+</body>
+
+</html>
